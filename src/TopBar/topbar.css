@@ -1,0 +1,56 @@
+.topBarWrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    background-color: #26303B;
+    color: #F5F5F5;
+}
+
+.topBarLogo{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+.logoTitle{
+    padding: 0 20px;
+    color: #F5F5F5;
+    font-size: 20px;
+}
+.logoImg{
+    font-size: 40px !important;
+    color: var(--blueTheme);
+}
+.topBarActions{
+    padding: 15px;
+    color: #F5F5F5;
+}
+.actionsWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language{
+    font-size: 12px;
+    padding: 0 5px;
+}
+.topBarActionImg{
+    font-size: 18px !important;
+    color: #F5F5F5;
+}
+
+.actionItem{
+    padding: 0 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider{
+    background: var(--grey) !important;
+}
+

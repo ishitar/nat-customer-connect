@@ -1,0 +1,14 @@
+:root{
+  --darkBlue: #26303B;
+  --darkGrey: #4e555c;
+  --grey: #787878;
+  --white: #F5F5F5;
+  --blueTheme: #4CA9B8;
+}
+.container{
+  display:flex;
+}
+.other{
+  background-color: var(--white);
+  flex: 20;
+}

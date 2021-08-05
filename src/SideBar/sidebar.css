@@ -1,0 +1,16 @@
+.sideBarWrapper{
+    background-color: var(--blueTheme);
+    position: sticky;
+    flex: 1;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color: var(--white) !important;
+}
+
+.sideNavImage{
+    padding: 30px 10px;
+    cursor: pointer;
+}
